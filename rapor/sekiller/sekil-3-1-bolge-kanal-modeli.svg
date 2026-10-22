@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" width="880" height="660" font-family="Arial, Helvetica, sans-serif" font-size="12">
+  <defs>
+    <style>
+      .d{fill:#e8f5ec;stroke:#1b7a3d;stroke-width:1.6}
+      .v{fill:#fff4e5;stroke:#b26a00;stroke-width:1.4;stroke-dasharray:6 4}
+      .o{fill:#f2f2f2;stroke:#555;stroke-width:1.4;stroke-dasharray:2 3}
+      .b{fill:#f7f7f7;stroke:#888;stroke-width:1.4;stroke-dasharray:1 4;stroke-linecap:round}
+      .z{fill:none;stroke:#1f5f99;stroke-width:1.4;stroke-dasharray:10 5}
+      .band{fill:#fbfbfb;stroke:#ddd}
+      .bl{fill:#eef1f5;stroke:#ccc}
+      .t{text-anchor:middle;fill:#111}
+      .s{text-anchor:middle;font-size:10.5px;fill:#444}
+      .zl{font-size:11px;font-weight:bold;fill:#1f5f99}
+      .c{stroke:#1f5f99;stroke-width:3;fill:none}
+      .cb{stroke:#888;stroke-width:2.2;fill:none;stroke-dasharray:3 4}
+      .cl{font-size:10.5px;fill:#1f5f99;font-weight:bold}
+      .clb{font-size:10.5px;fill:#666;font-weight:bold}
+    </style>
+  </defs>
+  <rect width="880" height="660" fill="#fff"/>
+
+  <!-- level bands -->
+  <rect class="band" x="0" y="20" width="880" height="110"/>
+  <rect class="band" x="0" y="140" width="880" height="120"/>
+  <rect class="band" x="0" y="270" width="880" height="130"/>
+  <rect class="band" x="0" y="410" width="880" height="160"/>
+  <rect class="bl" x="0" y="20" width="150" height="110"/>
+  <rect class="bl" x="0" y="140" width="150" height="120"/>
+  <rect class="bl" x="0" y="270" width="150" height="130"/>
+  <rect class="bl" x="0" y="410" width="150" height="160"/>
+  <text class="t" x="75" y="70" font-weight="bold">Seviye 3+</text>
+  <text class="s" x="75" y="86">Tesis / kurumsal</text>
+  <text class="t" x="75" y="195" font-weight="bold">Seviye 2</text>
+  <text class="s" x="75" y="211">Denetim / izleme</text>
+  <text class="t" x="75" y="330" font-weight="bold">Seviye 1</text>
+  <text class="s" x="75" y="346">Temel kontrol</text>
+  <text class="t" x="75" y="485" font-weight="bold">Seviye 0</text>
+  <text class="s" x="75" y="501">Proses / saha</text>
+
+  <!-- Z4 / Z5 (unknown, conditional) -->
+  <rect class="b" x="170" y="35" width="360" height="80" rx="8"/>
+  <text class="zl" x="180" y="52" style="fill:#666">Z4 Tesis ağı — [B] koşullu</text>
+  <text class="t" x="350" y="78">MES / SCADA / tesis ağı bağlantısı</text>
+  <text class="s" x="350" y="96">Varlığı kamuya açık kaynaklarda bilinmiyor</text>
+  <rect class="b" x="580" y="35" width="280" height="80" rx="8"/>
+  <text class="zl" x="590" y="52" style="fill:#666">Z5 Uzaktan erişim — [B] koşullu</text>
+  <text class="t" x="720" y="78">Üretici servisi uzak bağlantısı</text>
+  <text class="s" x="720" y="96">(VPN / modem / bulut) — bilinmiyor</text>
+
+  <!-- Z3 -->
+  <rect class="z" x="170" y="155" width="360" height="95" rx="8"/>
+  <text class="zl" x="180" y="172">Z3 Denetim bölgesi [V]</text>
+  <rect class="d" x="260" y="185" width="180" height="44" rx="6"/>
+  <text class="t" x="350" y="203">A-02 HMI (dokunmatik)</text>
+  <text class="s" x="350" y="220">[D2] — marka/model [B]</text>
+  <rect class="v" x="600" y="185" width="230" height="44" rx="6"/>
+  <text class="t" x="715" y="203">A-07 Mühendislik / servis PC'si</text>
+  <text class="s" x="715" y="220">[V] — yalnız bakımda bağlanır</text>
+
+  <!-- Z2 -->
+  <rect class="z" x="170" y="285" width="360" height="100" rx="8"/>
+  <text class="zl" x="360" y="380">Z2 Kontrol bölgesi [V]</text>
+  <rect class="d" x="190" y="315" width="150" height="50" rx="6"/>
+  <text class="t" x="265" y="336">A-01 PLC</text>
+  <text class="s" x="265" y="353">[D1] — marka/model [B]</text>
+  <rect class="v" x="355" y="315" width="160" height="50" rx="6"/>
+  <text class="t" x="435" y="336">A-03 G/Ç (I/O) modülleri</text>
+  <text class="s" x="435" y="353">[V]</text>
+  <rect class="b" x="600" y="315" width="230" height="50" rx="6"/>
+  <text class="t" x="715" y="336">S-01..03 Acil stop, kapı kilidi,</text>
+  <text class="s" x="715" y="353">emniyet rölesi — [B]</text>
+
+  <!-- Z1 -->
+  <rect class="z" x="170" y="425" width="690" height="130" rx="8"/>
+  <text class="zl" x="180" y="545">Z1 Saha / proses bölgesi [V]</text>
+  <rect class="d" x="185" y="455" width="120" height="50" rx="6"/>
+  <text class="t" x="245" y="476">F-01 EM flowmetre</text>
+  <text class="s" x="245" y="493">[D3]</text>
+  <rect class="v" x="315" y="455" width="120" height="50" rx="6"/>
+  <text class="t" x="375" y="476">F-02/03 Dolum valfi</text>
+  <text class="s" x="375" y="493">+ aktüatör [V]</text>
+  <rect class="v" x="445" y="455" width="120" height="50" rx="6"/>
+  <text class="t" x="505" y="476">F-04 Şişe sensörü</text>
+  <text class="s" x="505" y="493">[V]</text>
+  <rect class="v" x="575" y="455" width="130" height="50" rx="6"/>
+  <text class="t" x="640" y="476">F-05/06 Konveyör</text>
+  <text class="s" x="640" y="493">motoru + sürücü [V]</text>
+  <rect class="o" x="715" y="455" width="135" height="50" rx="6"/>
+  <text class="t" x="782" y="476">F-07 Kapak modülü</text>
+  <text class="s" x="782" y="493">opsiyonel [D5]</text>
+
+  <!-- conduits -->
+  <path class="c" d="M350,229 V270 H265 V315"/>
+  <text class="cl" x="358" y="266">C2 HMI–PLC (fiziksel tür/protokol [B])</text>
+  <path class="c" d="M265,365 V440 M435,365 V440 M245,440 H782 M245,440 V455 M375,440 V455 M505,440 V455 M640,440 V455 M782,440 V455"/>
+  <text class="cl" x="545" y="420">C1 G/Ç kablajı [V] · flowmetre sinyali [D3, tür B]</text>
+  <path class="c" d="M630,229 V277 H300 V315"/>
+  <text class="cl" x="390" y="306">C5 programlama portu [V]</text>
+  <path class="cb" d="M350,115 V185"/>
+  <text class="clb" x="358" y="140">C3 [B]</text>
+  <path class="cb" d="M640,115 V150 H420 V185"/>
+  <text class="clb" x="648" y="140">C4 [B]</text>
+
+  <!-- legend -->
+  <rect class="d" x="10" y="585" width="24" height="14"/><text x="40" y="597">Doğrulanmış [D]</text>
+  <rect class="v" x="160" y="585" width="24" height="14"/><text x="190" y="597">Varsayımsal [V]</text>
+  <rect class="o" x="310" y="585" width="24" height="14"/><text x="340" y="597">Opsiyonel</text>
+  <rect class="b" x="430" y="585" width="24" height="14"/><text x="460" y="597">Bilinmiyor / koşullu [B]</text>
+  <line class="c" x1="630" y1="592" x2="660" y2="592"/><text x="666" y="597">Kanal (conduit)</text>
+  <line class="cb" x1="770" y1="592" x2="800" y2="592"/><text x="806" y="597">[B]</text>
+  <text x="10" y="625" font-size="10" fill="#555">Bölge (zone) ve kanal (conduit) kavramları IEC 62443-3-2 [12], seviye katmanları NIST SP 800-82r3'teki Purdue tabanlı referans modelden [13] uyarlanmıştır.</text>
+  <text x="10" y="642" font-size="10" fill="#b26a00">Bölge sınırları ve kanalların tamamı varsayımsal referans mimaridir; STK Makina makinesinin gerçek ağ yapısı kamuya açık kaynaklarda yoktur.</text>
+</svg>

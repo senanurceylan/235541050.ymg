@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480" font-family="Arial, Helvetica, sans-serif" font-size="12">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <style>
+      .v{fill:#fff4e5;stroke:#b26a00;stroke-width:1.4;stroke-dasharray:6 4}
+      .x{fill:#e6f0fa;stroke:#1f5f99;stroke-width:1.8;stroke-dasharray:6 4}
+      .al{fill:#fdecee;stroke:#b00020;stroke-width:1.6;stroke-dasharray:6 4}
+      .t{text-anchor:middle;fill:#111;font-weight:bold}
+      .s{text-anchor:middle;font-size:10.5px;fill:#444}
+      .l{stroke:#333;stroke-width:1.3;fill:none;marker-end:url(#a)}
+      .la{stroke:#b00020;stroke-width:1.3;fill:none;marker-end:url(#a)}
+      .lb{font-size:10.5px;fill:#333}
+    </style>
+  </defs>
+  <rect width="880" height="480" fill="#fff"/>
+
+  <!-- Row 1 -->
+  <rect class="v" x="40" y="40" width="150" height="50" rx="10"/>
+  <text class="t" x="115" y="62">Durduruldu</text>
+  <text class="s" x="115" y="78">(Stopped)</text>
+  <rect class="v" x="250" y="40" width="150" height="50" rx="10"/>
+  <text class="t" x="325" y="62">Sıfırlanıyor</text>
+  <text class="s" x="325" y="78">(Resetting)</text>
+  <rect class="v" x="460" y="40" width="150" height="50" rx="10"/>
+  <text class="t" x="535" y="62">Hazır</text>
+  <text class="s" x="535" y="78">(Idle)</text>
+  <rect class="v" x="670" y="40" width="150" height="50" rx="10"/>
+  <text class="t" x="745" y="62">Başlatılıyor</text>
+  <text class="s" x="745" y="78">(Starting)</text>
+
+  <path class="l" d="M190,65 H250"/>
+  <text class="lb" x="220" y="58" text-anchor="middle">Reset</text>
+  <path class="l" d="M400,65 H460"/>
+  <text class="lb" x="430" y="58" text-anchor="middle">tamam</text>
+  <path class="l" d="M610,65 H670"/>
+  <text class="lb" x="640" y="58" text-anchor="middle">Start</text>
+  <path class="l" d="M745,90 V190"/>
+  <text class="lb" x="753" y="145">tamam</text>
+
+  <!-- Row 2 -->
+  <rect class="v" x="460" y="190" width="150" height="50" rx="10"/>
+  <text class="t" x="535" y="212">Askıda</text>
+  <text class="s" x="535" y="228">(Suspended) — dış neden</text>
+  <rect class="x" x="670" y="190" width="150" height="50" rx="10"/>
+  <text class="t" x="745" y="212">Çalışıyor</text>
+  <text class="s" x="745" y="228">(Execute) — dolum çevrimi</text>
+
+  <path class="l" d="M670,205 H610"/>
+  <text class="lb" x="640" y="176" text-anchor="middle">şişe yok / çıkış dolu</text>
+  <path class="l" d="M610,225 H670"/>
+  <text class="lb" x="640" y="258" text-anchor="middle">koşul düzeldi</text>
+
+  <!-- Row 3 -->
+  <rect class="v" x="40" y="330" width="150" height="50" rx="10"/>
+  <text class="t" x="115" y="352">Temizleniyor</text>
+  <text class="s" x="115" y="368">(Clearing)</text>
+  <rect class="al" x="250" y="330" width="150" height="50" rx="10"/>
+  <text class="t" x="325" y="352">İptal edildi</text>
+  <text class="s" x="325" y="368">(Aborted)</text>
+  <rect class="al" x="460" y="330" width="150" height="50" rx="10"/>
+  <text class="t" x="535" y="352">Acil stop / kritik hata</text>
+  <text class="s" x="535" y="368">(her durumdan)</text>
+  <rect class="v" x="670" y="330" width="150" height="50" rx="10"/>
+  <text class="t" x="745" y="352">Bekletmede</text>
+  <text class="s" x="745" y="368">(Held) — iç neden</text>
+
+  <path class="l" d="M730,240 V330"/>
+  <text class="lb" x="724" y="290" text-anchor="end">Hold</text>
+  <path class="l" d="M760,330 V240"/>
+  <text class="lb" x="766" y="290">Unhold</text>
+  <path class="la" d="M460,355 H400"/>
+  <path class="l" d="M250,355 H190"/>
+  <text class="lb" x="220" y="348" text-anchor="middle">Clear</text>
+  <path class="l" d="M115,330 V90"/>
+  <text class="lb" x="123" y="215">tamam</text>
+
+  <!-- notes -->
+  <line x1="40" y1="405" x2="840" y2="405" stroke="#ccc"/>
+  <text x="40" y="425" font-size="11" fill="#333">Durdur (Stop) komutu: herhangi bir durumdan → Durduruldu (sadelik için okla gösterilmemiştir).</text>
+  <text x="40" y="445" font-size="11" fill="#333">Model, ANSI/ISA-TR88.00.02 (PackML) durum modelinden sadeleştirilerek uyarlanmıştır.</text>
+  <text x="40" y="465" font-size="11" fill="#b26a00">Tüm model [V]: STK Makina'nın bu makinede PackML veya benzeri bir durum modeli kullandığı doğrulanmamıştır.</text>
+</svg>

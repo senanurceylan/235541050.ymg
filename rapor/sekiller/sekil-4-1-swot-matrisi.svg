@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 760" width="980" height="760" font-family="Arial, Helvetica, sans-serif" font-size="12.5">
+  <defs>
+    <style>
+      .ttl{text-anchor:middle;font-weight:bold;fill:#fff;font-size:17px}
+      .sub{text-anchor:middle;fill:#fff;font-size:11px;opacity:.9}
+      .it{fill:#1a1a1a;font-size:12px}
+      .code{font-weight:bold}
+      .ax{text-anchor:middle;font-weight:bold;fill:#333;font-size:13px;letter-spacing:2px}
+    </style>
+  </defs>
+  <rect width="980" height="760" fill="#ffffff"/>
+
+  <!-- axis labels -->
+  <text class="ax" x="300" y="30">İÇ FAKTÖRLER</text>
+  <text class="ax" x="700" y="30">DIŞ FAKTÖRLER</text>
+  <text class="ax" x="22" y="250" transform="rotate(-90 22 250)">YARDIMCI / OLUMLU</text>
+  <text class="ax" x="22" y="580" transform="rotate(-90 22 580)">ZARARLI / OLUMSUZ</text>
+
+  <!-- S -->
+  <rect x="55" y="45" width="445" height="330" rx="8" fill="#eef7f0" stroke="#1b7a3d" stroke-width="2"/>
+  <rect x="55" y="45" width="445" height="42" rx="8" fill="#1b7a3d"/>
+  <text class="ttl" x="277" y="66">GÜÇLÜ YÖNLER</text>
+  <text class="sub" x="277" y="80">Strengths · iç · olumlu</text>
+  <g class="it">
+    <text x="68" y="108"><tspan class="code">S1</tspan> Köklü üretici (1981), 120+ ülke ihracat [D]</text>
+    <text x="68" y="131"><tspan class="code">S2</tspan> PLC + dokunmatik HMI: modern,</text>
+    <text x="86" y="147">programlanabilir otomasyon [D1/D2]</text>
+    <text x="68" y="170"><tspan class="code">S3</tspan> Elektromanyetik flowmetre ile</text>
+    <text x="86" y="186">hassas, tekrarlanabilir dolum [D3]</text>
+    <text x="68" y="209"><tspan class="code">S4</tspan> Farklı şişe hacmine uyum / esneklik [D4]</text>
+    <text x="68" y="232"><tspan class="code">S5</tspan> Firma içi Ar-Ge, montaj, satış sonrası [D]</text>
+    <text x="68" y="255"><tspan class="code">S6</tspan> Hijyenik gıda hattı tasarımı, CIP</text>
+    <text x="86" y="271">üniteleri üretimi [D]</text>
+    <text x="68" y="294"><tspan class="code">S7</tspan> Firma "ISO-CE-TSE" beyanı [D-beyan]</text>
+    <text x="68" y="317"><tspan class="code">S8</tspan> Anahtar teslim tesis bütünlüğü [D]</text>
+    <text x="68" y="345" font-style="italic" fill="#555" font-size="11">Ayrıntı ve önem derecesi: Tablo 4.1</text>
+  </g>
+
+  <!-- W -->
+  <rect x="520" y="45" width="445" height="330" rx="8" fill="#fdeeee" stroke="#b00020" stroke-width="2"/>
+  <rect x="520" y="45" width="445" height="42" rx="8" fill="#b00020"/>
+  <text class="ttl" x="742" y="66">ZAYIF YÖNLER</text>
+  <text class="sub" x="742" y="80">Weaknesses · iç · olumsuz</text>
+  <g class="it">
+    <text x="533" y="108"><tspan class="code">W1</tspan> Kamuya açık teknik föy yok; PLC/HMI</text>
+    <text x="551" y="124">marka-modeli bilinmiyor [B]</text>
+    <text x="533" y="147"><tspan class="code">W2</tspan> Emniyet donanımı (E-stop, kilit, safety</text>
+    <text x="551" y="163">PLC) kaynaklarda doğrulanamıyor [B]</text>
+    <text x="533" y="186"><tspan class="code">W3</tspan> Ağ/haberleşme ve uzak erişim yapısı</text>
+    <text x="551" y="202">belirsiz [B]</text>
+    <text x="533" y="225"><tspan class="code">W4</tspan> HMI kullanıcı/rol yönetimi bilinmiyor [B]</text>
+    <text x="533" y="248"><tspan class="code">W5</tspan> Makineye özel CE/teknik dosya</text>
+    <text x="551" y="264">doğrulanamadı [B]</text>
+    <text x="533" y="287"><tspan class="code">W6</tspan> Siber güvenlik / OT güvenliği pazarlama</text>
+    <text x="551" y="303">iletişiminde görünmüyor [B]</text>
+    <text x="533" y="326"><tspan class="code">W7</tspan> Reçete/kalibrasyon bütünlüğü koruması</text>
+    <text x="551" y="342">belirsiz [B] · <tspan font-style="italic" fill="#555" font-size="11">Tablo 4.2</tspan></text>
+  </g>
+
+  <!-- O -->
+  <rect x="55" y="390" width="445" height="340" rx="8" fill="#eaf1fb" stroke="#1f5f99" stroke-width="2"/>
+  <rect x="55" y="390" width="445" height="42" rx="8" fill="#1f5f99"/>
+  <text class="ttl" x="277" y="411">FIRSATLAR</text>
+  <text class="sub" x="277" y="425">Opportunities · dış · olumlu</text>
+  <g class="it">
+    <text x="68" y="453"><tspan class="code">O1</tspan> OT güvenliği standartlarının olgunlaşması</text>
+    <text x="86" y="469">(IEC 62443, NIST 800-82r3) [11-13]</text>
+    <text x="68" y="492"><tspan class="code">O2</tspan> AB Makine Tüzüğü 2023/1230 siber</text>
+    <text x="86" y="508">dayanıklılık şartı (yürürlük tarihi doğrulanacak)</text>
+    <text x="68" y="531"><tspan class="code">O3</tspan> Safety+Security entegrasyonu: IEC TS 63074 [16]</text>
+    <text x="68" y="554"><tspan class="code">O4</tspan> "Güvenli makine"nin ihracatta rekabet</text>
+    <text x="86" y="570">avantajı (120+ ülke pazarı) [D]</text>
+    <text x="68" y="593"><tspan class="code">O5</tspan> Endüstri 4.0 / uzaktan izleme talebi</text>
+    <text x="68" y="616"><tspan class="code">O6</tspan> Gıda güvenliği regülasyonları dolum</text>
+    <text x="86" y="632">doğruluğunu teşvik ediyor</text>
+    <text x="68" y="655"><tspan class="code">O7</tspan> Müşteriye güvenli kurulum kılavuzu /</text>
+    <text x="86" y="671">katma değerli hizmet fırsatı</text>
+    <text x="68" y="700" font-style="italic" fill="#555" font-size="11">Ayrıntı ve önem derecesi: Tablo 4.3</text>
+  </g>
+
+  <!-- T -->
+  <rect x="520" y="390" width="445" height="340" rx="8" fill="#fff6e6" stroke="#b26a00" stroke-width="2"/>
+  <rect x="520" y="390" width="445" height="42" rx="8" fill="#b26a00"/>
+  <text class="ttl" x="742" y="411">TEHDİTLER</text>
+  <text class="sub" x="742" y="425">Threats · dış · olumsuz</text>
+  <g class="it">
+    <text x="533" y="453"><tspan class="code">T1</tspan> OT sistemlerine yönelik artan siber</text>
+    <text x="551" y="469">saldırılar (fidye, ICS kötü amaçlı yazılım)</text>
+    <text x="533" y="492"><tspan class="code">T2</tspan> Uzak bakım/tesis ağı üzerinden erişim</text>
+    <text x="551" y="508">riski (eğer varsa) [V]</text>
+    <text x="533" y="531"><tspan class="code">T3</tspan> İçeriden meraklı/sınırlı yetkili kullanıcı [V]</text>
+    <text x="533" y="554"><tspan class="code">T4</tspan> Tedarik zinciri: 3. taraf PLC/HMI firmware</text>
+    <text x="551" y="570">CVE'leri [V]</text>
+    <text x="533" y="593"><tspan class="code">T5</tspan> Gıda güvenliği olayı: hatalı/kontamine</text>
+    <text x="551" y="609">dolumun yasal ve itibari sonucu</text>
+    <text x="533" y="632"><tspan class="code">T6</tspan> Müşteri sahasında zayıf ağ hijyeni</text>
+    <text x="551" y="648">(üreticinin kontrolü dışında)</text>
+    <text x="533" y="671"><tspan class="code">T7</tspan> Regülasyon uyumsuzluğu → pazar kaybı</text>
+    <text x="533" y="700" font-style="italic" fill="#555" font-size="11">Ayrıntı ve önem derecesi: Tablo 4.4</text>
+  </g>
+
+  <text x="490" y="752" text-anchor="middle" font-size="10.5" fill="#666">Şekil 4.1 — STK Makina Otomatik Şişe Dolum Makinesi SWOT Matrisi. [D] doğrulanmış · [B] bilinmiyor · [V] varsayımsal. Kaynak: Yazar (rapor Aşama 1–3, Lab 1–4).</text>
+</svg>
